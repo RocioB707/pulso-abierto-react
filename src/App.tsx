@@ -2,7 +2,7 @@ import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
 import { PaginaConsulta } from './pages/PaginaConsulta';
 import { PaginaDetalle } from './pages/PaginaDetalle';
-import {datosIniciales} from '.data/datosIniciales';
+import {datosIniciales} from './Data/datosIniciales';
 
 function App() {
 
@@ -31,4 +31,4 @@ function App() {
   );
 }
 
-export default App;
+export default App; 
